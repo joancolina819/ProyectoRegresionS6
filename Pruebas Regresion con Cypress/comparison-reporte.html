@@ -1,0 +1,100 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>Comparación de imágenes</title>
+          <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            td, th {
+              border: 1px solid #DDDDDD;
+              text-align: left;
+              padding: 8px;
+            }
+            tr:nth-child(even) {
+              background-color: #DDDDDD;
+            }
+          </style>
+        </head>
+        <body>
+          <h2>Reporte de comparación de imágenes</h2>
+          <table>
+            <tr>
+              <th>Nombre de archivo</th>
+              <th>Porcentaje de diferencia</th>
+              <th>¿Mismas dimensiones?</th>
+              <th>Diferencia en dimensiones</th>
+              <th>Porcentaje de diferencia sin procesar</th>
+              <th>Límites de diferencia</th>
+              <th>Tiempo de análisis (ms)</th>
+              <th>Imagen V3</th>
+              <th>Imagen V5</th>
+            </tr>
+            
+            <tr>
+              <td>login-4.png</td>
+              <td>58.71</td>
+              <td>false</td>
+              <td>[object Object]</td>
+              <td>58.711037527593824</td>
+              <td>{"top":0,"left":0,"bottom":905,"right":1499}</td>
+              <td>188</td>
+              <td><img src="cypress\screenshots\Regresion\v3\login-4.png" width="200"></td>
+              <td><img src="cypress\screenshots\Regresion\v5\login-4.png" width="200"></td>
+            </tr>
+            
+            <tr>
+              <td>pages-titulo-sin-cuerpo.png</td>
+              <td>58.49</td>
+              <td>false</td>
+              <td>[object Object]</td>
+              <td>58.4906548933039</td>
+              <td>{"top":0,"left":0,"bottom":905,"right":1499}</td>
+              <td>263</td>
+              <td><img src="cypress\screenshots\Regresion\v3\pages-titulo-sin-cuerpo.png" width="200"></td>
+              <td><img src="cypress\screenshots\Regresion\v5\pages-titulo-sin-cuerpo.png" width="200"></td>
+            </tr>
+            
+            <tr>
+              <td>perfil-nombre-correo.png</td>
+              <td>78.05</td>
+              <td>false</td>
+              <td>[object Object]</td>
+              <td>78.0515084621045</td>
+              <td>{"top":0,"left":0,"bottom":905,"right":1499}</td>
+              <td>282</td>
+              <td><img src="cypress\screenshots\Regresion\v3\perfil-nombre-correo.png" width="200"></td>
+              <td><img src="cypress\screenshots\Regresion\v5\perfil-nombre-correo.png" width="200"></td>
+            </tr>
+            
+            <tr>
+              <td>post-titulo-sin-cuerpo.png</td>
+              <td>58.38</td>
+              <td>false</td>
+              <td>[object Object]</td>
+              <td>58.381751287711545</td>
+              <td>{"top":0,"left":0,"bottom":905,"right":1499}</td>
+              <td>269</td>
+              <td><img src="cypress\screenshots\Regresion\v3\post-titulo-sin-cuerpo.png" width="200"></td>
+              <td><img src="cypress\screenshots\Regresion\v5\post-titulo-sin-cuerpo.png" width="200"></td>
+            </tr>
+            
+            <tr>
+              <td>tag-vacio.png</td>
+              <td>59.40</td>
+              <td>false</td>
+              <td>[object Object]</td>
+              <td>59.4037527593819</td>
+              <td>{"top":0,"left":0,"bottom":905,"right":1499}</td>
+              <td>210</td>
+              <td><img src="cypress\screenshots\Regresion\v3\tag-vacio.png" width="200"></td>
+              <td><img src="cypress\screenshots\Regresion\v5\tag-vacio.png" width="200"></td>
+            </tr>
+            
+          </table>
+        </body>
+        </html>
+        
