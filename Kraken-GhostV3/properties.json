@@ -1,0 +1,17 @@
+{
+    "USERNAMEVACIO": "",
+    "PASSWORDVACIO": "",
+    "USERNAMEINCORRECTO": "baduser@uniandes.edu.co",
+    "PASSWORDINCORRECTO": "badpassword",
+    "USERNAME1": "id.sanchez2@uniandes.edu.co",
+    "PASSWORD1": "Test123456!",
+    "POSTTITLE": "Titulo Prueba",
+    "BODYTITLE": "Body prueba",
+    "TAGNAME": "Tag prueba",
+    "TAGDESCRIPTION": "Descripcion prueba tag",
+    "TAGCOLOR": "15171A",
+    "pageTest1": "pageTest1",
+    "NAME": "Joan Colina Actualizado",
+    "USERNAME1UPDATE": "id.sanchez2@uniandes.edu.co",
+    "slug": "Joan slug"
+}
