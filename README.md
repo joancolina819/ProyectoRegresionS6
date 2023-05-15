@@ -55,19 +55,31 @@ A continuacion, desistalar la herramienta ghost version 3.41.1 `npm uninstall gh
 
 Seguido a esto, volver a la interfaz de cypress y ejecutar las pruebas de la version 5 en que se encuentra en la carpeta cypress\e2e\testGhost V5 
 
-posteriormente correr el comando `node Regresion.js`, este va generar un reporte en html que se llama `comparison-reporte.html` abrir con el navegador. este reporte compara las siguientes funsionalidades.
+posteriormente correr el comando `node Regresion.js`, este va generar un reporte en html que se llama `comparison-reporte.html` abrir con el navegador. este reporte compara las siguientes funcionalidades.
 1. **Funcionalidad Iniciar Sesión**
   - Campo vacío
 2. **Funcionalidad Crear Post**
   - Post solo con título
 3. **Funcionalidad Crear pagina**
-  - pagina solo con título
+  - Página solo con título
 4. **Funcionalidad Crear Tag**
   - Tag vacío
 5. **Funcionalidad Cambiar información de perfil**
   - Cambiar nombre y correo
 
-
-
 ### Kraken
- Para ejecutar cada uno de los escenarios es necesario copiar el contenido .feature a probar y pegarlo en el archivo my_first.feature. Luego en el archivo properties.json modificar las propiedades de USERNAME1 y PASSWORD1 con un usuario y password válidos de la aplicación ghost, igualmente la propiedad USERNAME1UPDATE modificarlo con el mismo valor de USERNAME1. Finalmente ir por consola a la carpeta raíz, ejecutar el comando `npm install` y una vez se instalen los módulos, ejecutar `npx kraken-node run o ./node_modules/kraken-node/bin/kraken-node run`.
+ 
+Se compararon las siguientes funcionalidades
+ 
+ . **Funcionalidad Iniciar Sesión**
+  - Datos correctos
+2. **Funcionalidad Crear Post**
+  - Post con título y body
+3. **Funcionalidad Crear pagina**
+  - Página con 
+4. **Funcionalidad Crear Tag**
+  - Crear Tag con título color y descripción
+5. **Funcionalidad Cambiar información de perfil**
+  - Cambiar nombre
+ 
+ 
