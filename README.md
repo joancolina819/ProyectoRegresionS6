@@ -76,7 +76,7 @@ Se compararon las siguientes funcionalidades
 2. **Funcionalidad Crear Post**
   - Post con título y body
 3. **Funcionalidad Crear pagina**
-  - Página con 
+  - Página solo con título
 4. **Funcionalidad Crear Tag**
   - Crear Tag con título color y descripción
 5. **Funcionalidad Cambiar información de perfil**
