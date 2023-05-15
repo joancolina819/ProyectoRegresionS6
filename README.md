@@ -91,4 +91,5 @@ Se compararon las siguientes funcionalidades
 5. **Funcionalidad Cambiar información de perfil**
   - Cambiar nombre
  
- 
+ Enlace al video:
+ https://drive.google.com/file/d/1kXqaVOLz42bDyRGZ_uyiI-MtNSjemR9P/view?usp=share_link
