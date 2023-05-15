@@ -69,7 +69,8 @@ posteriormente correr el comando `node Regresion.js`, este va generar un reporte
 
 ### Kraken
  
- Instalar las versiones de Ghost 5.45.1 y 3.42. Para instalar la versión 5.45.1 abir una terminal y ejecutar el comando ghost install --version 5.42.1 --local --force. Para la versión 3.42 ejecutar el comando docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.42 ghost:3.42. La versión de Ghost 5.45.1 se va a ejecutar en el puerto 2368 y para la versión 3.42 en el puerto 3001. 
+Instalar las versiones de Ghost 5.45.1 y 3.42. Para instalar la versión 5.45.1 abir una terminal y ejecutar el comando ghost install --version 5.42.1 --local --force. Para la versión 3.42 ejecutar el comando docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.42 ghost:3.42. La versión de Ghost 5.45.1 se va a ejecutar en el puerto 2368 y para la versión 3.42 en el puerto 3001. 
+
 En la carpeta ProyectoRegresionS6/Kraken-GhostV3/features/Escenarios y ProyectoRegresionS6/Kraken-GhostV5/features/Escenarios se encuentran los archivos .feature donde cada archivo corresponde a una de las funcionalidades probadas.
 Para ejecutar cada uno de los escenarios es necesario copiar el contenido .feature a probar y pegarlo en el archivo my_first.feature. Luego en el archivo properties.json modificar las propiedades de USERNAME1 y PASSWORD1 con un usuario y password válidos de la aplicación ghost, igualmente la propiedad USERNAME1UPDATE modificarlo con el mismo valor de USERNAME1. Finalmente ir por consola a la carpeta raíz, ejecutar el comando npm install y una vez se instalen los módulos, ejecutar npx kraken-node run o ./node_modules/kraken-node/bin/kraken-node run.
 
@@ -79,7 +80,7 @@ En la carpeta ProyectoRegresionS6/Reporte-Pruebas-Regresion se encuentran los re
  
 Se compararon las siguientes funcionalidades
  
- . **Funcionalidad Iniciar Sesión**
+1. **Funcionalidad Iniciar Sesión**
   - Datos correctos
 2. **Funcionalidad Crear Post**
   - Post con título y body
